@@ -54,6 +54,9 @@ Es la pagina donde tenemos el registro de los juegos realizados hasta el momento
 Puede apreciar el video de demostración en este link
 [YouTube] (https://youtu.be/x3PVCVqz0GY “Youtube”)
 
+Aqui dejamos el video en gif
+![video](/readme-assets/demo-ships-01.gif)
+
 ---
 
 
