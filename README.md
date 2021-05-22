@@ -57,6 +57,13 @@ Puede apreciar el video de demostración en este link
 Aqui dejamos el video en gif
 ![video](/readme-assets/demo-ships-01.gif)
 
+## II.5) Applicación
+
+<h2>
+Puedes probar la aplicación en vivo en esta pagina [application](https://humbertojacobm.github.io/reactjs-battleship/).
+</h2>
+
+
 ---
 
 
