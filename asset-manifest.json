@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/humbertojacobm/reactjs-battleship/static/css/main.2c9b478c.chunk.css",
+    "main.js": "/humbertojacobm/reactjs-battleship/static/js/main.7bff32ae.chunk.js",
+    "main.js.map": "/humbertojacobm/reactjs-battleship/static/js/main.7bff32ae.chunk.js.map",
+    "runtime-main.js": "/humbertojacobm/reactjs-battleship/static/js/runtime-main.befc1442.js",
+    "runtime-main.js.map": "/humbertojacobm/reactjs-battleship/static/js/runtime-main.befc1442.js.map",
+    "static/js/2.a6d96783.chunk.js": "/humbertojacobm/reactjs-battleship/static/js/2.a6d96783.chunk.js",
+    "static/js/2.a6d96783.chunk.js.map": "/humbertojacobm/reactjs-battleship/static/js/2.a6d96783.chunk.js.map",
+    "static/js/3.96fa08f7.chunk.js": "/humbertojacobm/reactjs-battleship/static/js/3.96fa08f7.chunk.js",
+    "static/js/3.96fa08f7.chunk.js.map": "/humbertojacobm/reactjs-battleship/static/js/3.96fa08f7.chunk.js.map",
+    "index.html": "/humbertojacobm/reactjs-battleship/index.html",
+    "static/css/main.2c9b478c.chunk.css.map": "/humbertojacobm/reactjs-battleship/static/css/main.2c9b478c.chunk.css.map",
+    "static/js/2.a6d96783.chunk.js.LICENSE.txt": "/humbertojacobm/reactjs-battleship/static/js/2.a6d96783.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.befc1442.js",
+    "static/js/2.a6d96783.chunk.js",
+    "static/css/main.2c9b478c.chunk.css",
+    "static/js/main.7bff32ae.chunk.js"
+  ]
+}
