@@ -24,6 +24,7 @@ const SettingContainer = () => {
   const numberChange = (event) => {
     setNumberOfAttempts(event.target.value);
   };
+  const showShipsHook = () => setShowShips(!showShips);
   return (
     <>
       <Row>
@@ -60,7 +61,7 @@ const SettingContainer = () => {
                 type="checkbox"
                 label="Show ships"
                 checked={showShips}
-                onChange={() => setShowShips(!showShips)}
+                onChange={showShipsHook}
               />
             </Form.Group>
             <Button variant="primary" type="submit" size="lg" block>

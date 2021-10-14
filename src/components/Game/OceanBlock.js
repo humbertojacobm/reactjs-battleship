@@ -18,12 +18,13 @@ const OceanBlock = ({
   index,
   display,
 }) => {
+  const release = () => fire(index);
   return (
     <>
       <div
         className={`ocean-block ${isShip && displayShips ? `red` : ``} 
         ${isAttacked ? `darkgrey` : ``}`}
-        onClick={() => fire(index)}
+        onClick={release}
       >
         {`${display}`}
       </div>

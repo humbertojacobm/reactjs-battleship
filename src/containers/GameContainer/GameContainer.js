@@ -148,7 +148,7 @@ const GameContainer = () => {
     setShowModal(false);
     restartGame();
   };
-
+  const handleShowModalFalse = () => setShowModal(false);
   return (
     <>
       <Row>
@@ -156,7 +156,7 @@ const GameContainer = () => {
           show={showModal}
           body={modalBody}
           title="Finished Game"
-          onCancel={() => setShowModal(false)}
+          onCancel={handleShowModalFalse}
           onAccept={handleAcceptModal}
         />
       </Row>
