@@ -76,7 +76,6 @@ export const GetShipByTailSize = (initialBlocks, tailSize) => {
     var validationStep = 0;
 
     while (validationDefaultResult && shipSize > validationStep) {
-      //check if the array item is between in [0,1,2,3...,99]
       if (
         !initialBlocks.some((block) => block === ShipApplicant[validationStep])
       ) {
@@ -86,7 +85,6 @@ export const GetShipByTailSize = (initialBlocks, tailSize) => {
       var currentStepValue = ShipApplicant[validationStep];
 
       if (tailSize > 0) {
-        //check if the middle array item is in [10,20,30,40,50,90] and [9,19,29,39,49,59,69,79,89,99]
         if (tailSize > 1) {
           if (0 < validationStep && validationStep < shipSize) {
             if (currentStepValue % 10 === 0 || currentStepValue % 10 === 9) {

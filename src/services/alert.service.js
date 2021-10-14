@@ -21,12 +21,10 @@ export const AlertType = {
   Warning: "Warning",
 };
 
-// enable subscribing to alerts observable
 function onAlert(id = defaultId) {
   return alertSubject.asObservable().pipe(filter((x) => x && x.id === id));
 }
 
-// convenience methods
 function success(message, options) {
   alert({ ...options, type: AlertType.Success, message });
 }
@@ -43,13 +41,11 @@ function warn(message, options) {
   alert({ ...options, type: AlertType.Warning, message });
 }
 
-// core alert method
 function alert(alert) {
   alert.id = alert.id || defaultId;
   alertSubject.next(alert);
 }
 
-// clear alerts
 function clear(id = defaultId) {
   alertSubject.next({ id });
 }
